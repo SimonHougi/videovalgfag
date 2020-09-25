@@ -73,11 +73,11 @@ h1 {
     top: 0;
     bottom: 0;
     right: 0;
-    margin: 5vh 2vw;
+    margin: 40px 2vw;
 }
 
 .footer-logo img {
-    margin-top: 1.5vh;
+    margin-top: 5px;
     height: 7vh;
 }
 
@@ -94,7 +94,7 @@ h1 {
     top: 0;
     bottom: 0;
     right: 0;
-    margin: 4.5vh 28vw;
+    margin: 30px 28vw;
 }
 
 .footer-location p {
@@ -109,7 +109,7 @@ h1 {
     top: 0;
     bottom: 0;
     right: 0;
-    margin: 4.5vh 53vw;
+    margin: 30px 53vw;
 }
 
 .footer-contact p {
@@ -125,7 +125,7 @@ h1 {
     top: 0;
     bottom: 0;
     right: 0;
-    margin: 7.6vh 78vw;
+    margin: 60px 78vw;
 }
 
 .footer-links i {
