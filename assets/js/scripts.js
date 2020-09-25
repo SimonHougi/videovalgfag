@@ -1,8 +1,8 @@
 let options = {
     "controls": true, 
-    "autoplay": true, 
+    "autoplay": false, 
     "preload": "auto", 
-    "muted": true
+    "muted": false
 };
 
 videojs('video1', options);
