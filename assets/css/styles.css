@@ -50,9 +50,14 @@ h1 {
     font-size: 1.2vw;
 }
 
-.video {
+.video-container {
     height: 80vh;
     background-color: #004250;
+}
+
+.video-container video {
+    height: 80vh;
+    width: 100vw;
 }
 
 .logo {
