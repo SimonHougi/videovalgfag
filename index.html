@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link href="assets/css/video-hotposts.css" rel="stylesheet" type="text/css">
     <title>UCN - Studiestart og stress</title>
-    <link rel='icon' href='assets/images/ucnlogo.png' type='image/x-icon'/ >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Font awesome icons-->
+    <script src="assets/js/scripts.js" defer></script>
+    <script src="assets/js/video-hotspots.js" defer></script>
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.8.4/video.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel='icon' href='assets/images/ucnlogo.png' type='image/x-icon' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Font awesome icons-->
 </head>
 
 <body>
@@ -30,14 +37,20 @@
             </div>
         </div>
         <div class="video-container">
-            <video src="assets/videos/projektstressucn.mp4" autoplay controls></video>
+            <video id="video1" class="video-js responsive-video ratio-16-9" controls preload="auto" width="640"
+            height="264">
+                    <source src="assets/videos/projektstressucn.mp4" type="video/mp4" />
+                </video>
         </div>
         <div class="outro">
             <p>Har du svært ved at skabe balance imellem dit studie og din fritid? UCN ønsker et studiemiljø, hvor alle
                 studerende trives, så tøv ikke med at tage kontakt til en nær, en underviser eller vores psykolog på
                 campus.</p> <br>
-            <p>Se mere omkring stress, studieliv og håndtering heraf på: <br> <a href="https://www.theschooloflife.com/">https://www.theschooloflife.com/</a></p> <br>
-            <p>Kontakt til UCN skolepsykolog kan findes på: <br> <a href=https://www.ucn.dk/kontakt/alle-medarbejdere/maria-sommer-gavigan>https://www.ucn.dk/kontakt/alle-medarbejdere/maria-sommer-gavigan</a></p>
+            <p>Se mere omkring stress, studieliv og håndtering heraf på: <br> <a
+                    href="https://www.theschooloflife.com/">https://www.theschooloflife.com/</a></p> <br>
+            <p>Kontakt til UCN skolepsykolog kan findes på: <br> <a
+                    href=https://www.ucn.dk/kontakt/alle-medarbejdere/maria-sommer-gavigan>https://www.ucn.dk/kontakt/alle-medarbejdere/maria-sommer-gavigan</a>
+            </p>
         </div>
     </main>
     <footer>
